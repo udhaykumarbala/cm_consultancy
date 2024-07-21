@@ -63,7 +63,7 @@ const HeaderSection = () => {
                             <a href="#QualityAssurance" title="Quality Assurance" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Quality Assurance </a>
                             <a href="#OurCommitment" title="Our Commitment" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Our Commitment </a>
                             <a
-                                href="#"
+                                href="#ContactUs"
                                 title="Contact Us"
                                 className="block px-5 py-2 mt-2 text-base font-semibold leading-7 text-gray-900 transition-all duration-200 bg-transparent border border-gray-900 rounded-xl lg:mt-0 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white"
                                 role="button"
