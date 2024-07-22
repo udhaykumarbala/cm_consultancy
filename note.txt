@@ -8,3 +8,8 @@
     padding: 26px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px #c6c6c6;
+
+
+
+    // Name: 184311619, Email: 698779333, Phone: 1573086575, Message: 423126541
+// https://docs.google.com/forms/d/e/1FAIpQLScHW4M5BIUDhKhG_Clgy5CjcvK33IJSCE8tivTFPgDWSFSslQ/formResponse
