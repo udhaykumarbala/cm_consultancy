@@ -4,35 +4,42 @@ const services = [
     {
         title: "Data Entry Services",
         description: "Accurate and efficient data entry services to help you manage your data.",
-        image: "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/categories/3/summer-men-collection.png",
+        image: "https://cdni.iconscout.com/illustration/premium/thumb/data-entry-5734399-4799753.png?f=webp",
     },
     {
         title: "Data Extraction",
         description: "Reliable data extraction services to collect data from various sources.",
-        image: "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/categories/3/fitness-collection.png",
+        image: "https://cdni.iconscout.com/illustration/premium/thumb/data-extraction-with-rpa-8086564-6506948.png?f=webp",
     },
     {
         title: "Data Analytics",
         description: "In-depth data analysis to help you make informed decisions.",
-        image: "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/categories/3/summer-men-collection.png",
+        image: "https://cdni.iconscout.com/illustration/premium/thumb/data-analytics-3488374-2922369.png?f=webp",
     },
     {
         title: "Machine Learning",
         description: "Advanced machine learning solutions to automate your processes.",
-        image: "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/categories/3/fitness-collection.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5hUdfUxqVlwfgUk16Mgb3sYB5-qRQ4f7YQ&s",
     },
     {
         title: "Business Intelligence",
         description: "Comprehensive BI services to transform your data into actionable insights.",
+        image:"https://www.advanceecomsolutions.com/wp-content/uploads/2022/06/seo-for-online-retailer-img.jpg"
     },
     {
         title: "Data Visualization",
         description: "Clear and concise data visualization to make your data easy to understand.",
-        image: "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/categories/3/fitness-collection.png",
+        image: "https://cdn.thenewstack.io/media/2023/01/285d68dd-charts-1024x581.jpg",
     },
     {
         title: "Web Development",
         description: "Professional web development services to build your online presence.",
+        image: "https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg"
+    },
+    {
+        title: "Artificial Intelligence",
+        description: "Innovative AI solutions to enhance your business processes and decision-making.",
+        image: "https://us.123rf.com/450wm/sn333g/sn333g1710/sn333g171000075/87887609-artificial-intelligence-round-vector-colorful-linear-illustration-or-sign-on-dark-background.jpg?ver=6",
     },
 ];
 
@@ -54,18 +61,9 @@ const OurServicesSection = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                             <div className="relative aspect-w-3 aspect-h-4 lg:aspect-w-1 lg:aspect-h-1">
                                 <div className="flex items-end justify-center">
-                                    <div className="px-4 py-8 sm:px-6 lg:px-10">
+                                    <div className="px-4 py-8 sm:px-6 lg:px-10" style={{background: 'rgba(0, 0, 0, 0.65)'}}>
                                         <h3 className="text-2xl font-bold text-white lg:text-3xl">{service.title}</h3>
                                         <p className="mt-4 text-base font-normal text-white">{service.description}</p>
-                                        <div className="mt-8">
-                                            <a href="#" title="" className="inline-flex items-center text-base font-bold text-white" role="button">
-                                                Explore Now
-                                                <svg className="w-6 h-6 ml-2 transition-all duration-200 group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                                </svg>
-                                                <span className="absolute inset-0" aria-hidden="true"></span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

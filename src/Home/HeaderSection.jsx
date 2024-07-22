@@ -21,7 +21,7 @@ const HeaderSection = () => {
                 <div className="relative flex items-center justify-between">
                     <div className="flex-shrink-0">
                         <a href="#" title="Logo" className="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            <img className="w-auto h-8" src="https://d33wubrfki0l68.cloudfront.net/682a555ec15382f2c6e7457ca1ef48d8dbb179ac/f8cd3/images/logo.svg" alt="Logo" />
+                            <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
                         </a>
                     </div>
 
@@ -57,11 +57,7 @@ const HeaderSection = () => {
                             boxShadow: isScreenSmall ? '0px 0px 20px 0px #c6c6c6' : 'none',
                             display: isScreenSmall ? 'block' : 'contents'
                         }}>
-                            <a href="#" title="Home" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Home </a>
-                            <a href="#AboutUs" title="About Us" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> About Us </a>
-                            <a href="#service" title="Services" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Services </a>
-                            <a href="#QualityAssurance" title="Quality Assurance" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Quality Assurance </a>
-                            <a href="#OurCommitment" title="Our Commitment" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0"> Our Commitment </a>
+                            <a href="#service" title="Services" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0">Our Services </a>
                             <a
                                 href="#ContactUs"
                                 title="Contact Us"

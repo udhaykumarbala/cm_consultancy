@@ -11,9 +11,8 @@ const QualityAssuranceSection = () => {
                 <div className="grid grid-cols-1 gap-5 text-center md:grid-cols-3 gap-y-5 md:gap-x-8 mt-12">
                     <div className="overflow-hidden bg-white border border-gray-200 rounded-xl">
                         <div className="px-4 py-5 sm:p-6">
-                            <p className="text-2xl font-bold text-gray-900">99.8%</p>
-                            <p className="mt-2 text-sm font-medium text-gray-500">Accuracy Rate</p>
-                            <p className="mt-6 text-sm font-medium text-green-500">43% extra since last week</p>
+                            <p className="text-2xl font-bold text-gray-900">99.8% Accuracy Rate</p>
+                            <p className="mt-2 text-sm font-medium text-gray-500">43% extra since last week</p>
                         </div>
                     </div>
 
@@ -21,7 +20,6 @@ const QualityAssuranceSection = () => {
                         <div className="px-4 py-5 sm:p-6">
                             <p className="text-2xl font-bold text-gray-900">200,000</p>
                             <p className="mt-2 text-sm font-medium text-gray-500">PDFs Processed This Year</p>
-                            <p className="mt-6 text-sm font-medium text-red-500">17% lower than last month</p>
                         </div>
                     </div>
 
@@ -29,7 +27,6 @@ const QualityAssuranceSection = () => {
                         <div className="px-4 py-5 sm:p-6">
                             <p className="text-2xl font-bold text-gray-900">Custom QC Tool</p>
                             <p className="mt-2 text-sm font-medium text-gray-500">For Each Client</p>
-                            <p className="mt-6 text-sm font-medium text-green-500">21% extra since last week</p>
                         </div>
                     </div>
                 </div>

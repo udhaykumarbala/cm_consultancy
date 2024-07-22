@@ -6,13 +6,13 @@ const FooterSection = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24">
                     <div>
-                        <img className="w-auto h-8 mx-auto lg:mx-0" src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg" alt="Logo" />
+                        <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
                     </div>
 
                     <ul className="flex items-center justify-center mt-8 space-x-6 sm:mt-12 sm:space-x-16 lg:mt-0">
                         <li>
                             <a
-                                href="#"
+                                href="#AboutUs"
                                 title="About"
                                 className="text-lg font-medium text-gray-900 transition-all duration-200 font-pj hover:text-gray-600"
                             >
@@ -21,29 +21,29 @@ const FooterSection = () => {
                         </li>
                         <li>
                             <a
-                                href="#"
-                                title="Features"
+                                href="#service"
+                                title="Services"
                                 className="text-lg font-medium text-gray-900 transition-all duration-200 font-pj hover:text-gray-600"
                             >
-                                Features
+                                Services
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
-                                title="Works"
+                                href="#QualityAssurance"
+                                title="QualityAssurance"
                                 className="text-lg font-medium text-gray-900 transition-all duration-200 font-pj hover:text-gray-600"
                             >
-                                Works
+                                Assurance
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
-                                title="Support"
+                                href="#OurCommitment"
+                                title="Commitment"
                                 className="text-lg font-medium text-gray-900 transition-all duration-200 font-pj hover:text-gray-600"
                             >
-                                Support
+                                Commitment
                             </a>
                         </li>
                     </ul>
@@ -139,7 +139,7 @@ const FooterSection = () => {
                     </ul>
 
                     <p className="mt-8 text-base font-normal text-center text-gray-600 md:text-left md:mt-0 md:order-1 font-pj">
-                        © Copyright 2021, All Rights Reserved
+                        © Copyright 2024, All Rights Reserved
                     </p>
                 </div>
             </div>
