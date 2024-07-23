@@ -9,7 +9,7 @@ const FooterSection = () => {
                         <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
                     </div>
 
-                    <ul className="flex items-center justify-center mt-8 space-x-6 sm:mt-12 sm:space-x-16 lg:mt-0">
+                    {/* <ul className="flex items-center justify-center mt-8 space-x-6 sm:mt-12 sm:space-x-16 lg:mt-0">
                         <li>
                             <a
                                 href="#AboutUs"
@@ -46,7 +46,7 @@ const FooterSection = () => {
                                 Commitment
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
 
                     <ul className="flex items-center justify-center mt-8 space-x-3 sm:mt-12 lg:justify-end lg:mt-0">
                         <li>
