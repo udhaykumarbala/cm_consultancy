@@ -13,7 +13,7 @@ const OurCommitmentSection = () => {
                             </span>
                             <div className="ml-6">
                                 <h3 className="text-lg font-bold text-gray-900">Ethical Practices</h3>
-                                <p className="mt-3 text-base font-normal text-gray-900">We uphold the highest standards of ethical practices in all our operations, ensuring hiring and firing are conducted ethically to maintain integrity.</p>
+                                <p className="mt-3 text-base font-normal text-gray-900">Hiring and firing ethically to maintain the integrity and quality of our work.</p>
                             </div>
                         </div>
 
@@ -23,7 +23,7 @@ const OurCommitmentSection = () => {
                             </span>
                             <div className="ml-6">
                                 <h3 className="text-lg font-bold text-gray-900">Cost Efficiency</h3>
-                                <p className="mt-3 text-base font-normal text-gray-900">We strive to provide the most cost-efficient solutions without compromising on quality, leveraging cost-effective resources to ensure value for our clients.</p>
+                                <p className="mt-3 text-base font-normal text-gray-900">Leveraging cost-effective resources without compromising on quality.</p>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ const OurCommitmentSection = () => {
                             </span>
                             <div className="ml-6">
                                 <h3 className="text-lg font-bold text-gray-900">Innovation</h3>
-                                <p className="mt-3 text-base font-normal text-gray-900">We are committed to continuous innovation, leveraging cutting-edge technology to improve our processes and stay ahead in the industry.</p>
+                                <p className="mt-3 text-base font-normal text-gray-900">Continuously improving our processes with cutting-edge technology.</p>
                             </div>
                         </div>
                     </div>

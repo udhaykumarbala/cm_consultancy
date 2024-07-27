@@ -1,0 +1,14 @@
+@media (max-width: 446px) {
+    #herobtn{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 965px) {
+    #AboutUs{
+        padding-top: 0;
+    }
+    #Hero{
+        padding-bottom: 0;
+    }
+}

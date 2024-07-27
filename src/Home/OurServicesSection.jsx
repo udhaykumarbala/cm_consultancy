@@ -4,7 +4,7 @@ const services = [
     {
         title: "Data Entry Services",
         description: "Accurate and efficient data entry services to help you manage your data.",
-        image: "https://exbroit.com/wp-content/uploads/2021/11/Data-Entry-Service.jpg",
+        image: "https://www.offshoreindiadataentry.com/blog/wp-content/uploads/2018/08/Advantages-of-Product-Data-Entry-Service-in-eCommerce-Websites.jpg",
     },
     {
         title: "Data Extraction",
@@ -24,12 +24,12 @@ const services = [
     {
         title: "Business Intelligence",
         description: "Comprehensive BI services to transform your data into actionable insights.",
-        image:"https://img.freepik.com/premium-vector/business-intelligence-word-concepts-turquoise-banner_106317-23890.jpg"
+        image:"https://t4.ftcdn.net/jpg/02/86/04/23/360_F_286042362_shTRGf8RYV4KYgXShtp6dpFIlFd5ckvL.jpg"
     },
     {
         title: "Data Visualization",
         description: "Clear and concise data visualization to make your data easy to understand.",
-        image: "https://cdn.thenewstack.io/media/2023/01/285d68dd-charts-1024x581.jpg",
+        image: "https://media.licdn.com/dms/image/C5612AQF54ISFHO-sbA/article-cover_image-shrink_720_1280/0/1575413859195?e=2147483647&v=beta&t=JCrxU-af-shd8O26nv58V-IhulrCxOhIt-WL1b86auM",
     },
     {
         title: "Web Development",
@@ -39,7 +39,7 @@ const services = [
     {
         title: "Artificial Intelligence",
         description: "Innovative AI solutions to enhance your business processes and decision-making.",
-        image: "https://img.freepik.com/free-vector/artificial-intelligence-concept-twitter-header_23-2150395161.jpg",
+        image: "https://www.bu.edu/hic/files/2021/04/ai-top-banner.jpeg",
     },
 ];
 

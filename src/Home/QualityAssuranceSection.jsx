@@ -6,7 +6,7 @@ const QualityAssuranceSection = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Quality Assurance</h2>
-                    <p className="mt-4 text-base leading-7 text-gray-600">Our Quality Control (QC) tool ensures the highest accuracy in data management and processing. With a robust system and state-of-the-art technology, we achieve accuracy rates above 95% consistently. Below are some of our accuracy statistics over the past six months:</p>
+                    <p className="mt-4 text-base leading-7 text-gray-600">Our Quality Control (QC) tool ensures the highest accuracy in data management and processing. With a robust system and state-of-the-art technology, we achieve accuracy rates consistently. Below are some of our accuracy statistics over the past six months:</p>
                 </div>
                 <div className="grid grid-cols-1 gap-5 text-center md:grid-cols-3 gap-y-5 md:gap-x-8 mt-12">
                     <div className="overflow-hidden bg-white border border-gray-200 rounded-xl">

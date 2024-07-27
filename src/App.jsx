@@ -7,6 +7,7 @@ import QualityAssuranceSection from './Home/QualityAssuranceSection'
 import OurCommitmentSection from './Home/OurCommitmentSection'
 import JoinUsSection from './Home/JoinUsSection'
 import FooterSection from './Home/FooterSection'
+import "../src/css/StyleSheet.css"
 
 function App() {
   const [count, setCount] = useState(0)
