@@ -3,15 +3,15 @@ import React from 'react';
 const FooterSection = () => {
     return (
         <footer className="py-12 bg-white sm:pt-16" style={{"paddingTop": "0"}}>
-            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24" style={{marginTop:"50px"}}>
                     <div>
-                        <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined', textAlign: 'center' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
+                        <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined', textAlign: 'center' }}>CM <span style={{fontFamily: 'Material Symbols Outlined', fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
                     </div>
 
                     {/* <ul className="flex items-center justify-center mt-8 space-x-6 sm:mt-12 sm:space-x-16 lg:mt-0">
                         <li>
-                            <a
+                                        <a
                                 href="#AboutUs"
                                 title="About"
                                 className="text-lg font-medium text-gray-900 transition-all duration-200 font-pj hover:text-gray-600"

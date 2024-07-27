@@ -1,3 +1,9 @@
+*{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 @media (max-width: 446px) {
     #herobtn{
         font-size: 13px;

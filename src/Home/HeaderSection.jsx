@@ -22,7 +22,7 @@ const HeaderSection = () => {
                 <div className="relative flex items-center justify-between">
                     <div className="flex-shrink-0 z-[999]">
                         <a href="#" title="Logo" className="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
+                            <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px', fontFamily: 'Material Symbols Outlined' }}>Consultancy</span></h1>
                         </a>
                     </div>
 
