@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div class="overflow-x-hidden bg-gray-50">
+      <div class="overflow-x-hidden bg-white">
         <HeaderSection/>
         <HeroSection/>
       </div>

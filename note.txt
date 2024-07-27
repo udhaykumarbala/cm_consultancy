@@ -20,3 +20,16 @@
     font-size: 16px;
     text-align: justify;
     margin-bottom: -56px;
+
+================================================
+
+// menu
+    padding-top: 18%;
+
+// footer padding
+
+// why choose us
+//     font-size: 18px;
+// button removeI(command)
+
+=================================================

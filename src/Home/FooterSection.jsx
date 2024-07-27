@@ -2,9 +2,9 @@ import React from 'react';
 
 const FooterSection = () => {
     return (
-        <footer className="py-12 bg-white sm:pt-16">
+        <footer className="py-12 bg-white sm:pt-16" style={{"paddingTop": "0"}}>
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24">
+                <div className="lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24" style={{marginTop:"50px"}}>
                     <div>
                         <h1 style={{ fontSize: '20px', fontWeight: 'bold', fontFamily: 'Material Symbols Outlined', textAlign: 'center' }}>CM <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgb(10, 89, 162)', marginLeft: '-16px' }}>Consultancy</span></h1>
                     </div>

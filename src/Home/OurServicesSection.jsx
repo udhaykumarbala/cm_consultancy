@@ -56,7 +56,7 @@ const OurServicesSection = () => {
                     {services.map((service, index) => (
                         <div key={index} className="relative overflow-hidden group">
                             <div className="absolute inset-0">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125 group-hover:rotate-3" src={service.image || defaultImage} alt={service.title} />
+                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={service.image || defaultImage} alt={service.title} />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                             <div className="relative aspect-w-3 aspect-h-4 lg:aspect-w-1 lg:aspect-h-1">

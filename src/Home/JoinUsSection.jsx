@@ -57,7 +57,7 @@ const JoinUsSection = () => {
     };
 
     return (
-        <section className="py-12 bg-gray-50 sm:pt-16 lg:pt-20 xl:pt-24" id="ContactUs">
+        <section className="py-12 bg-gray-50 sm:pt-16 lg:pt-20 xl:pt-24" style={{"paddingBottom": "0"}} id="ContactUs">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-32">
                     <div className="flex flex-col self-stretch justify-between">
@@ -89,18 +89,18 @@ const JoinUsSection = () => {
                                 </div>
                                 <blockquote className="mt-8">
                                     <p className="text-xl font-normal text-white">
-                                        "We love Landingfolio! Our designers were using it for their projects, so we already knew what kind of design they want."
+                                        "We love working with CM Consultancy! Their innovative solutions and attention to detail have significantly improved our business operations. Their team is highly professional and always ready to assist us with any challenges."
                                     </p>
                                 </blockquote>
                                 <div className="flex items-center mt-6">
                                     <img
                                         className="object-cover rounded-full w-11 h-11 shrink-0"
-                                        src="https://landingfoliocom.imgix.net/store/collection/saasui/images/sign-in/3/avatar-male.png"
+                                        src="https://t3.ftcdn.net/jpg/06/99/82/40/360_F_699824038_otxAffbfoxHIQ1pWY2mkFVFs6gcKf7ii.jpg"
                                         alt="User"
                                     />
                                     <div className="ml-4">
-                                        <p className="text-base font-semibold text-white">Devon Lane</p>
-                                        <p className="text-sm font-normal text-gray-300">Co-Founder, Design.co</p>
+                                        <p className="text-base font-semibold text-white"> John,</p>
+                                        <p className="text-sm font-normal text-gray-300">CEO, yyy</p>
                                     </div>
                                 </div>
                             </div>
