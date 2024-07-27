@@ -64,7 +64,7 @@ const JoinUsSection = () => {
                         <div className="flex-1">
                             <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Love to hear from you, Get in touch 👋</h2>
                             <p className="mt-4 text-base font-normal leading-7 text-gray-600 lg:text-lg lg:mt-6 lg:leading-8">
-                                Clarity gives you the blocks & components you need to create a truly professional website, landing page or admin panel for your SaaS and gives the blocks.
+                            At CM Consultancy and Data Services, we believe in the power of communication. We're always here to listen to your needs and provide the best solutions to help your business thrive.
                             </p>
                         </div>
 

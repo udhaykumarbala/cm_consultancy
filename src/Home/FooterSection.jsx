@@ -112,7 +112,11 @@ const FooterSection = () => {
 
                 <hr className="mt-10 border-gray-300" />
 
-                <div className="mt-10 flex items-center">
+                <div className="mt-10 flex items-center w-full" style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}>
                     {/* <ul className="flex items-center justify-center space-x-6 md:order-2 md:justify-end">
                         <li>
                             <a

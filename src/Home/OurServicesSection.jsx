@@ -9,7 +9,7 @@ const services = [
     {
         title: "Data Extraction",
         description: "Reliable data extraction services to collect data from various sources.",
-        image: "https://www.mhcautomation.com/wp-content/uploads/2021/07/What-Is-Data-Extraction-Banner-02-.png",
+        image: "https://www.klippa.com/wp-content/uploads/2024/02/data-extraction-header.png",
     },
     {
         title: "Data Analytics",
@@ -59,15 +59,15 @@ const OurServicesSection = () => {
                                 <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={service.image || defaultImage} alt={service.title} />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                            <div className="relative aspect-w-3 aspect-h-4 lg:aspect-w-1 lg:aspect-h-1">
-                                <div className="flex items-end justify-center">
-                                    <div className="px-4 py-8 sm:px-6 lg:px-10" style={{background: 'rgba(0, 0, 0, 0.65)', width:"100%"}}>
+                            <div className="relative aspect-w-3 aspect-h-4 lg:aspect-w-1 lg:aspect-h-1 h-full" style={{ height:"100%" }}>
+                                <div className="flex items-end justify-center" style={{ height:"100%" }}>
+                                    <div className="px-4 py-8 sm:px-6 lg:px-10" style={{background: 'rgba(0, 0, 0, 0.65)', width:"100%", height:"100%"}}>
                                         <h3 className="text-2xl font-bold text-white lg:text-3xl">{service.title}</h3>
                                         <p className="mt-4 text-base font-normal text-white">{service.description}</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     ))}
                 </div>
             </div>

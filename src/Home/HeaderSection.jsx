@@ -61,13 +61,12 @@ const HeaderSection = () => {
                             top: isScreenSmall ? '0%' : 'auto',
                             background: isScreenSmall ? 'rgb(255 255 255 / 94%)' : 'transparent',
                             backdropFilter: isScreenSmall ? 'blur(10px)' : 'none',
-                            padding: isScreenSmall ? '26px' : '0',
+                            padding: isScreenSmall ? '18% 0% 0% 0%' : '0',
                             borderRadius: isScreenSmall ? '10px' : '0',
                             boxShadow: isScreenSmall ? 'rgb(198, 198, 198) 0px 0px 20px 0px': 'none',
                             display: isScreenSmall ? 'flex' : 'contents',
                             height: '100vh',
                             justifyContent: "flex-start",
-                            paddingTop: "18%"
                         }}>
                             <a href="#service" title="Services" className="block text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 py-2 lg:py-0">Our Services </a>
                             <a
