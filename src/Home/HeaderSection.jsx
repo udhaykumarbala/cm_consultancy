@@ -11,10 +11,20 @@ const HeaderSection = () => {
             setIsScreenSmall(window.innerWidth < 1023);
         };
 
-        window.addEventListener('resize', handleResize);
+        const handleScroll = () => {
+            if (isMenuOpen) {
+                setIsMenuOpen(false);
+            }
+        };
 
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [isMenuOpen]);
 
     return (
         <header className="fixed w-full top-0 z-50 py-4 md:py-6 bg-white bg-opacity-30 backdrop-blur-md shadow-md">
