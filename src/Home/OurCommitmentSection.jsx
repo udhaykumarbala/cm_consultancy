@@ -1,4 +1,3 @@
-import React from 'react';
 
 const OurCommitmentSection = () => {
     return (
@@ -8,7 +7,7 @@ const OurCommitmentSection = () => {
                     <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Our Commitment</h2>
                     <div className="mt-12 grid max-w-lg grid-cols-1 mx-auto gap-y-12 gap-x-14 lg:grid-cols-3 lg:max-w-none text-left">
                         <div className="flex items-start">
-                            <span class="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}>
+                            <span className="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}>
                                 engineering
                             </span>
                             <div className="ml-6">
@@ -18,7 +17,7 @@ const OurCommitmentSection = () => {
                         </div>
 
                         <div className="flex items-start">
-                            <span class="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}> 
+                            <span className="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}> 
                                 attach_money
                             </span>
                             <div className="ml-6">
@@ -28,7 +27,7 @@ const OurCommitmentSection = () => {
                         </div>
 
                         <div className="flex items-start">
-                            <span class="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}>
+                            <span className="material-symbols-outlined" style={{  fontSize: '34px',  position: 'relative'}}>
                                 lightbulb_circle
                             </span>
                             <div className="ml-6">

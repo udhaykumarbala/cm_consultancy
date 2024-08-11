@@ -1,4 +1,6 @@
-import React from 'react';
+"use client";
+
+import AnimatedNumbers from "react-animated-numbers"
 
 const QualityAssuranceSection = () => {
     return (
@@ -11,14 +13,37 @@ const QualityAssuranceSection = () => {
                 <div className="grid grid-cols-1 gap-5 text-center md:grid-cols-3 gap-y-5 md:gap-x-8 mt-12">
                     <div className="overflow-hidden bg-white border border-gray-200 rounded-xl">
                         <div className="px-4 py-5 sm:p-6">
-                            <p className="text-2xl font-bold text-gray-900">99.8%</p>
+                        <div className="flex justify-center">
+                        <AnimatedNumbers
+        includeComma={true}
+        className="justify-center"
+        transitions={() => ({
+          type: "spring",
+          duration: 1.5,
+        })}
+        animateToNumber={99.8}
+        fontStyle={{ fontSize: "1.5rem", lineHeight: "2rem", fontWeight: "bold", color: "black"}}
+        
+      /> <span className="self-center text-2xl font-bold text-gray-900"> &nbsp;%</span>
+      </div>
                             <p className="mt-2 text-sm font-medium text-gray-500">Accuracy Rate</p>
                         </div>
                     </div>
 
                     <div className="overflow-hidden bg-white border border-gray-200 rounded-xl">
                         <div className="px-4 py-5 sm:p-6">
-                            <p className="text-2xl font-bold text-gray-900">200,000</p>
+                        
+                            <AnimatedNumbers
+        includeComma={true}
+        className="justify-center"
+        transitions={() => ({
+          type: "spring",
+          duration: 1.5,
+        })}
+        animateToNumber={2000000}
+        fontStyle={{ fontSize: "1.5rem", lineHeight: "2rem", fontWeight: "bold", color: "black" }}
+        
+      />
                             <p className="mt-2 text-sm font-medium text-gray-500">PDFs Processed This Year</p>
                         </div>
                     </div>
