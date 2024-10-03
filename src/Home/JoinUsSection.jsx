@@ -7,6 +7,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import "react-toastify/dist/ReactToastify.css";
 import "./styles/joinUsSection.css";
+import TestimonialCard from "../components/TestimonialCard";
 
 const JoinUsSection = () => {
    const [fullName, setFullName] = useState("");
@@ -89,49 +90,7 @@ const JoinUsSection = () => {
                      </p>
                   </div>
 
-                  <div className='relative mt-10 overflow-hidden bg-blue-600 lg:mt-0 rounded-3xl -rotate-3'>
-                     <div className='absolute bottom-0 right-0 -mb-72 -mr-24 border-[6px] opacity-20 border-white rounded-full w-96 h-96'></div>
-
-                     <div className='relative p-6 sm:px-8 sm:py-9'>
-                        <div className='flex items-center'>
-                           {[...Array(5)].map((_, i) => (
-                              <svg
-                                 key={i}
-                                 className='w-6 h-6 text-yellow-300'
-                                 xmlns='http://www.w3.org/2000/svg'
-                                 viewBox='0 0 20 20'
-                                 fill='currentColor'
-                              >
-                                 <path d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z' />
-                              </svg>
-                           ))}
-                        </div>
-                        <blockquote className='mt-8'>
-                           <p className='text-xl font-normal text-white'>
-                              "Working with CM Data Services has been a
-                              fantastic experience. They’ve taken the hassle out
-                              of data entry and data extraction, allowing us to
-                              focus on what we do best. The team feels like an
-                              extension of our own, always ready to adapt to our
-                              needs and deliver results that we can count on. I
-                              couldn’t recommend them more highly!"
-                           </p>
-                        </blockquote>
-                        <div className='flex items-center mt-6'>
-                           <img
-                              className='object-cover rounded-full size-12 bg-gray-50/80'
-                              src={memojiImage}
-                              alt='User'
-                           />
-                           <div className='ml-4'>
-                              <p className='text-base font-semibold text-white'>
-                                 {" "}
-                                 Ryan O'Donnell,
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                  <TestimonialCard />
                </div>
 
                <div className='bg-white shadow-xl rounded-2xl'>
