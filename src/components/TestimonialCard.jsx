@@ -1,21 +1,21 @@
 import { Fragment } from "react";
 import memojiImage1 from "../assets/memoji-smile.png";
-import memojiImage2 from "../assets/memoji-avatar-4.png";
+import memojiImage2 from "../assets/memoji-avatar-1.png";
 
 const cardData = [
    {
       userImage: memojiImage1,
       userName: "Ryan O'Donnell,",
-      userTitle: "CEO",
+      userTitle: "",
       userDescription:
          "Working with CM Data Services has been a fantastic experience. They’ve taken the hassle out of data entry and data extraction, allowing us to focus on what we do best. The team feels like an extension of our own, always ready to adapt to our needs and deliver results that we can count on. I couldn’t recommend them more highly!",
    },
    {
       userImage: memojiImage2,
-      userName: "Julie Scarlet,",
-      userTitle: "CEO",
+      userName: "Udhayakumar",
+      userTitle: "Susanoox",
       userDescription:
-         "Working with CM Data Services has been a fantastic experience. They’ve taken the hassle out of data entry and data extraction, allowing us to focus on what we do best. The team feels like an extension of our own, always ready to adapt to our needs and deliver results that we can count on. I couldn’t recommend them more highly!",
+         "CM Data Services provided exceptional support with their custom-trained machine learning models for data extraction, delivering highly accurate and efficient results. Their tailored approach and commitment to quality made a real difference for our project. Highly recommended for any data-driven solution!",
    },
 ];
 const TestimonialCard = () => {
@@ -57,6 +57,8 @@ const TestimonialCard = () => {
                                  <div className='ml-4'>
                                     <p className='text-base font-semibold text-white'>
                                        {card.userName}
+                                       {card.userTitle &&
+                                          " - " + card.userTitle}
                                     </p>
                                  </div>
                               </div>

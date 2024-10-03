@@ -9,7 +9,7 @@ const services = [
    {
       title: "Advanced Automation Services",
       description:
-         "Save time and reduce errors by automating repetitive tasks like data entry and extraction. Our automation solutions help you focus on what matters most.",
+         "Automate repetitive tasks, including data entry and web scraping. Our automation services save time, reduce errors, and allow you to focus on core business growth.",
       //   image: "https://www.klippa.com/wp-content/uploads/2024/02/data-extraction-header.png",
       image: "https://as1.ftcdn.net/v2/jpg/08/96/87/46/1000_F_896874670_N8NSz1Uq6Z6vu14YDNCS0v1acGMdDYG4.jpg",
    },
@@ -37,9 +37,9 @@ const services = [
    //     image:"https://t4.ftcdn.net/jpg/02/86/04/23/360_F_286042362_shTRGf8RYV4KYgXShtp6dpFIlFd5ckvL.jpg"
    // },
    {
-      title: "Data Extraction",
+      title: "Smart Data Extraction",
       description:
-         "Efficiently gather vital information from various sources with our automated data extraction services, providing you with accurate and actionable data.",
+         "Quickly extract critical information from various sources, including OCR (Optical Character Recognition). Our automated extraction services deliver precise, actionable data tailored to your needs.",
       image: "https://www.klippa.com/wp-content/uploads/2024/02/data-extraction-header.png",
    },
    {
