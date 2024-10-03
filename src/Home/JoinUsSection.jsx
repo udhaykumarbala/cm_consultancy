@@ -1,7 +1,12 @@
 import { useState, useRef } from "react";
 import memojiImage from "../assets/memoji-smile.png";
+
 import { ToastContainer, toast } from "react-toastify";
+import PhoneInput from "react-phone-input-2";
+
+import "react-phone-input-2/lib/style.css";
 import "react-toastify/dist/ReactToastify.css";
+import "./styles/joinUsSection.css";
 
 const JoinUsSection = () => {
    const [fullName, setFullName] = useState("");
@@ -77,10 +82,10 @@ const JoinUsSection = () => {
                         Love to hear from you, Get in touch 👋
                      </h2>
                      <p className='mt-4 text-base font-normal leading-7 text-gray-600 lg:text-lg lg:mt-6 lg:leading-8'>
-                        At CM Consultancy and Data Services, we believe in the
-                        power of communication. We're always here to listen to
-                        your needs and provide the best solutions to help your
-                        business thrive.
+                        At CM Data Services, we believe in the power of
+                        communication. We're always here to listen to your needs
+                        and provide the best solutions to help your business
+                        thrive.
                      </p>
                   </div>
 
@@ -122,9 +127,6 @@ const JoinUsSection = () => {
                               <p className='text-base font-semibold text-white'>
                                  {" "}
                                  Ryan O'Donnell,
-                              </p>
-                              <p className='text-sm font-normal text-gray-300'>
-                                 CEO
                               </p>
                            </div>
                         </div>
@@ -179,14 +181,16 @@ const JoinUsSection = () => {
                               Phone
                            </label>
                            <div>
-                              <input
+                              <PhoneInput
                                  type='tel'
                                  name='phone'
                                  id='phone'
+                                 country={"in"}
+                                 inputProps={{ required: true }}
                                  value={phone}
-                                 onChange={(e) => setPhone(e.target.value)}
+                                 onChange={(value) => setPhone(value)}
                                  placeholder='Phone Number'
-                                 className='block w-full px-px py-4 text-base text-gray-900 placeholder-gray-600 bg-white border-b-2 focus:outline-none focus:border-blue-600 focus:ring-0'
+                                 className='w-full flex px-px py-2 text-base text-gray-900 placeholder-gray-600 bg-white border-b-2 focus:outline-none focus:border-blue-600 focus:ring-0'
                                  required
                               />
                            </div>

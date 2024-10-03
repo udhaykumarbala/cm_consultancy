@@ -5,12 +5,7 @@ const services = [
          "Streamline your data management with our precise and reliable data entry services, ensuring your information is organized and accessible when you need it.",
       image: "https://www.offshoreindiadataentry.com/blog/wp-content/uploads/2018/08/Advantages-of-Product-Data-Entry-Service-in-eCommerce-Websites.jpg",
    },
-   {
-      title: "Data Extraction",
-      description:
-         "Efficiently gather vital information from various sources with our automated data extraction services, providing you with accurate and actionable data.",
-      image: "https://www.klippa.com/wp-content/uploads/2024/02/data-extraction-header.png",
-   },
+
    {
       title: "Advanced Automation Services",
       description:
@@ -30,11 +25,23 @@ const services = [
          "Automate complex processes with our machine learning services. Enhance accuracy and efficiency across your operations with intelligent, adaptive systems.",
       image: "https://img.freepik.com/premium-photo/virtual-neural-networks-artificial-intelligence-machine-learning-banner-wallpaper-made-with-generative-ai_155027-3423.jpg",
    },
+   {
+      title: "Artificial Intelligence",
+      description:
+         "Innovative AI solutions to enhance your business processes and decision-making.",
+      image: "https://www.bu.edu/hic/files/2021/04/ai-top-banner.jpeg",
+   },
    // {
    //     title: "Business Intelligence",
    //     description: "Comprehensive BI services to transform your data into actionable insights.",
    //     image:"https://t4.ftcdn.net/jpg/02/86/04/23/360_F_286042362_shTRGf8RYV4KYgXShtp6dpFIlFd5ckvL.jpg"
    // },
+   {
+      title: "Data Extraction",
+      description:
+         "Efficiently gather vital information from various sources with our automated data extraction services, providing you with accurate and actionable data.",
+      image: "https://www.klippa.com/wp-content/uploads/2024/02/data-extraction-header.png",
+   },
    {
       title: "Data Visualization",
       description:
@@ -60,11 +67,6 @@ const services = [
          "Focus on your core business by outsourcing routine tasks to us. We handle the manual work, so you can concentrate on growth and innovation.",
       image: "https://t4.ftcdn.net/jpg/02/86/04/23/360_F_286042362_shTRGf8RYV4KYgXShtp6dpFIlFd5ckvL.jpg",
    },
-   // {
-   //     title: "Artificial Intelligence",
-   //     description: "Innovative AI solutions to enhance your business processes and decision-making.",
-   //     image: "https://www.bu.edu/hic/files/2021/04/ai-top-banner.jpeg",
-   // },
 ];
 
 const OurServicesSection = () => {
