@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import memojiImage from "../assets/memoji-smile.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -28,13 +29,14 @@ const JoinUsSection = () => {
       }
 
       const googleFormUrl =
-         "https://docs.google.com/forms/d/e/1FAIpQLScHW4M5BIUDhKhG_Clgy5CjcvK33IJSCE8tivTFPgDWSFSslQ/formResponse";
+         "https://docs.google.com/forms/d/e/1FAIpQLSd4AdnBjek-O35A_ayg7ajE59osZPcoGjPyKgFdnH_y5EhvUA/formResponse";
 
       const postData = new URLSearchParams();
-      postData.append("entry.184311619", fullName);
-      postData.append("entry.698779333", email);
-      postData.append("entry.1573086575", phone);
-      postData.append("entry.423126541", message);
+
+      postData.append("entry.1756337814", fullName);
+      postData.append("entry.1170316929", email);
+      postData.append("entry.1900101983", phone);
+      postData.append("entry.1999821102", message);
 
       buttonRef.current.disabled = true;
 
@@ -112,8 +114,8 @@ const JoinUsSection = () => {
                         </blockquote>
                         <div className='flex items-center mt-6'>
                            <img
-                              className='object-cover rounded-full w-11 h-11 shrink-0'
-                              src='https://t3.ftcdn.net/jpg/06/99/82/40/360_F_699824038_otxAffbfoxHIQ1pWY2mkFVFs6gcKf7ii.jpg'
+                              className='object-cover rounded-full size-12 bg-gray-50/80'
+                              src={memojiImage}
                               alt='User'
                            />
                            <div className='ml-4'>
@@ -122,7 +124,7 @@ const JoinUsSection = () => {
                                  Ryan O'Donnell,
                               </p>
                               <p className='text-sm font-normal text-gray-300'>
-                                 CEO, yyy
+                                 CEO
                               </p>
                            </div>
                         </div>
