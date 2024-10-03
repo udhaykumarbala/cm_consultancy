@@ -5,7 +5,7 @@ const FooterSection = () => {
       <footer className='py-12 bg-white sm:pt-16' style={{ paddingTop: "0" }}>
          <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
             <div
-               className='lg:flex lg:items-center lg:justify-between mt-14 lg:mt-24'
+               className='flex flex-col lg:flex-row items-center lg:justify-between mt-14 lg:mt-24'
                style={{ marginTop: "50px" }}
             >
                <div className='flex'>
