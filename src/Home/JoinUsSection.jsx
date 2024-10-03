@@ -144,7 +144,16 @@ const JoinUsSection = () => {
                                  type='tel'
                                  name='phone'
                                  id='phone'
-                                 country={"in"}
+                                 country={"us"}
+                                 preferredCountries={[
+                                    "us",
+                                    "ca",
+                                    "sg",
+                                    "gb",
+                                    "ch",
+                                    "in",
+                                    "ae",
+                                 ]}
                                  inputProps={{ required: true }}
                                  value={phone}
                                  onChange={(value) => setPhone(value)}
