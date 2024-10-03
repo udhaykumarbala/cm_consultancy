@@ -60,7 +60,7 @@ const QualityAssuranceSection = () => {
                            type: "spring",
                            duration: 1.5,
                         })}
-                        animateToNumber={2000000}
+                        animateToNumber={200000}
                         fontStyle={{
                            fontSize: "1.5rem",
                            lineHeight: "2rem",
