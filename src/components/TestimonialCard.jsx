@@ -26,7 +26,7 @@ const TestimonialCard = () => {
                <Fragment key={i}>
                   {cardData?.map((card, index) => (
                      <Fragment key={index}>
-                        <div className='relative  overflow-hidden bg-blue-600 lg:mt-0 transition duration-300  rounded-3xl hover:-rotate-3 max-w-md'>
+                        <div className='relative  overflow-hidden bg-blue-600 lg:mt-0 transition duration-300  rounded-3xl hover:-rotate-3 max-w-sm lg:max-w-md'>
                            <div className='absolute bottom-0 right-0 -mb-72 -mr-24 border-[6px] opacity-20 border-white rounded-full w-96 h-96'></div>
 
                            <div className='relative p-6 sm:px-8 sm:py-9'>
