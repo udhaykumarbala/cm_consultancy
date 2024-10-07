@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import logo from "../assets/light-Theme.svg";
+import { useState, useEffect } from "react";
+import logo from "../assets/CM-Light-Theme.svg";
 import "../css/header.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -35,7 +35,7 @@ const HeaderSection = () => {
                   <img
                      src={logo}
                      alt='logo'
-                     className=' w-40 p-0 object-cover'
+                     className=' w-60 h-12 p-0 object-cover'
                   />
                </div>
                {/* <div className="flex-shrink-0 z-[999]">
